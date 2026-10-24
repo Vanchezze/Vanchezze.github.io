@@ -1,0 +1,164 @@
+{
+  "keySkills": [
+    {
+      "name": "TypeScript",
+      "icon": "ts",
+      "className": "icon-angular"
+    },
+    {
+      "name": "Node.js",
+      "icon": "node",
+      "className": "icon-node"
+    },
+    {
+      "name": "Python",
+      "icon": "python",
+      "className": "icon-node"
+    },
+    {
+      "name": "React",
+      "icon": "react",
+      "className": "icon-react"
+    },
+    {
+      "name": "Next.js",
+      "icon": "next",
+      "className": "icon-vue"
+    },
+    {
+      "name": "GraphQL",
+      "icon": "graphql",
+      "className": "icon-graphql"
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "postgresql",
+      "className": "icon-postgresql"
+    },
+    {
+      "name": "Terraform",
+      "icon": "terraform",
+      "className": "icon-terraform"
+    }
+  ],
+  "experiences": [
+    {
+      "date": "Nov 2024 – Present",
+      "position": "Front-end lead · Chief Software Engineer I",
+      "company": "EPAM Systems · Global investment firm, Portfolio Analytics Platform",
+      "location": "Denver, CO",
+      "description": "Front-end lead across four product squads, building the analysis tools financial advisors use with their clients. Lead Software Engineer, promoted to Chief Software Engineer I in Dec 2025.",
+      "duties": [
+        "Proposed and led a modernization of outdated front-end architecture: one normalized state, 4 typed data accessors, and a single adapter with error handling between data and components, kept backward compatible for components other squads reuse. Bad data no longer crashes the page; hotfixes dropped sharply.",
+        "Mapped the minimal data contract for a new listing endpoint (current loads reach 8–10 s); the diagram now serves as the front-end migration map and the backend contract.",
+        "Flagged that no user research had been done; turned the resulting wishlist into a prioritized backlog with product and UX and shipped all 16 must-have features.",
+        "Introduced agentic workflows with Copilot skills; co-designed a new PDF export pipeline and delivered it about 2x faster."
+      ],
+      "environment": ""
+    },
+    {
+      "date": "Mar 2023 – Oct 2024",
+      "position": "Core architect",
+      "company": "EPAM Systems · Consumer-health company, Global Digital Experience Platform",
+      "location": "Denver, CO",
+      "description": "Only EPAM engineer on the ~10-person core team that replaced ~1,800 legacy Drupal sites with a global platform used by four regional teams; ~600 sites live at handoff.",
+      "duties": [
+        "Helped define the architecture and built the proof of concept; designed the design system (accessible Radix base, PandaCSS, three-layer Figma design tokens) so designers control branding across regions.",
+        "Designed the content schemas and API with the CMS vendor (Contentful) as technical contact.",
+        "Created the deployment and release process regional teams ran on their own; hired and led six EPAM engineers with 100% retention."
+      ],
+      "environment": ""
+    },
+    {
+      "date": "Jan 2022 – Feb 2023",
+      "position": "Front-end lead",
+      "company": "EPAM Systems · Global beauty brand, Real-Time AR Virtual Try-On",
+      "location": "Denver, CO",
+      "description": "Front-end lead (6 engineers) for live AR makeup try-on during video calls, delivered as a Microsoft Teams app, working with a 4-person data science team.",
+      "duties": [
+        "Moved real-time AR processing (WebGL, TensorFlow, MediaPipe) to the GPU: startup from 7–9 s to under 2 s, frame rate from 12–14 to ~25 fps.",
+        "Aligned requirements and performance targets with Microsoft’s Teams platform team across time zones."
+      ],
+      "environment": ""
+    },
+    {
+      "date": "Jun 2019 – Dec 2021",
+      "position": "Co-architect, BodilessJS",
+      "company": "EPAM Systems · Healthcare company, open-source framework",
+      "location": "Denver, CO",
+      "description": "Co-architect of BodilessJS, an open-source React toolset for inline-editable static sites, built to move ~1,800 legacy Drupal brand sites to static hosting.",
+      "duties": [
+        "Shaped the platform architecture in weekly design sessions: components, API schemas, editorial workflow, styling and developer experience.",
+        "Built reusable components and a Tailwind-based styling framework, plus an automated accessibility pipeline (Pa11y) in CI."
+      ],
+      "environment": ""
+    }
+  ],
+  "earlierExperience": [
+    {
+      "date": "Nov 2017 – Jun 2019",
+      "position": "Sr. Software Engineer → Lead Software Engineer",
+      "company": "EPAM Systems, major media network",
+      "location": "New York, NY",
+      "description": "High-traffic media applications with Vue.js and AWS Lambda microservices on AEM; coordinated two teams on a shared codebase and ran A/B tests.",
+      "environment": "",
+      "duties": []
+    },
+    {
+      "date": "Dec 2015 – Sep 2017",
+      "position": "Web Application Developer → Sr. Web Application Developer (Full-Stack)",
+      "company": "FoodSnagger Inc.",
+      "location": "Brooklyn, NY",
+      "description": "Lead developer on a cloud POS and food-delivery platform: Node.js/Express services, a Raspberry Pi device server for printers and card readers, and Ionic/AngularJS apps for customers, restaurants and drivers.",
+      "environment": "",
+      "duties": []
+    },
+    {
+      "date": "Jul 2014 – Oct 2015",
+      "position": "Front-End Web Developer",
+      "company": "Web Mission",
+      "location": "",
+      "description": "Landing pages and e-commerce sites; accessible, CMS-integrated, responsive UI templates.",
+      "environment": "",
+      "duties": []
+    }
+  ],
+  "education": [
+    "B.S. in Information Security, Orenburg State University, Russia",
+    "Front-End Engineering Program, New York Code + Design Academy, NYC"
+  ],
+  "summary": "Product engineer with 10+ years building web products end to end, mostly in TypeScript, React and Next.js, with Node.js, GraphQL and Python behind them. Chief Software Engineer at EPAM, leading front-end across four product squads for a global investment firm. I care about simple architecture other people can run without me, and AI that is configured and observed, not just switched on. Member of EPAM’s Advanced Software Engineering committee, assessing engineers for senior promotions.",
+  "selectedResults": [
+    {
+      "metric": "~1,800 → 1",
+      "text": "Core architect of a global digital experience platform that replaced ~1,800 legacy Drupal sites; ~600 brand sites live at handoff."
+    },
+    {
+      "metric": "7–9 s → <2 s",
+      "text": "Real-time AR startup time after moving processing to the GPU; frame rate up from 12–14 to ~25 fps."
+    },
+    {
+      "metric": "Hundreds → 4",
+      "text": "State hooks replaced by 4 typed accessors in an investment analytics front end, with one normalized state and centralized error handling; hotfixes dropped sharply."
+    }
+  ],
+  "projects": [
+    {
+      "date": "Feb 2026 – Present",
+      "name": "AI Voice & Chat Receptionist (side project)",
+      "description": "A 24/7 AI receptionist for small businesses: voice and chat agents that answer calls, handle common questions and book appointments. Built solo, end to end.",
+      "duties": [
+        "Replaced a no-code automation chain with my own serverless backend (Next.js on Vercel): one webhook endpoint for voice and chat with per-channel adapters, verified signatures, deduplication on retries, independent delivery with retry, and one structured log per call.",
+        "Ran error analysis on call transcripts (open and axial coding); fixed claims without data, off-topic drift and unconfirmed details with explicit guardrails and read-backs.",
+        "Measured real cost per minute and cut the prompt by about 23%; added call caps and spend alerts."
+      ]
+    },
+    {
+      "date": "Sep 2026 – Present",
+      "name": "FGSD – open-source AI coaching system",
+      "link": "https://github.com/Vanchezze/FGSD",
+      "description": "Plain-markdown system that turns Claude or ChatGPT into a project coach; tagged releases, product files separated from user data for safe upgrades; launch post reached ~170k views.",
+      "duties": []
+    }
+  ]
+}
