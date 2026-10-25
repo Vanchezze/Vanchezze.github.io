@@ -15,7 +15,7 @@ class Skills extends React.Component {
 
     return (
       <div className="v-container__block-wide">
-        <h3 className="v-container__headline">Key Skills</h3>
+        <h2 className="v-container__headline">Key Skills</h2>
         <div className="v-container__skills">
           {keySkills}
         </div>

@@ -11,7 +11,7 @@ class AppComponent extends React.Component {
   render() {
     return (
       <section>
-        <div className="v-container">
+        <main className="v-container">
           <h1 className="v-container__headline">Ivan Rudiuk</h1>
           <span className="v-container__sub-headline">
             <span className="v-container__sub-headline-part">
@@ -26,7 +26,7 @@ class AppComponent extends React.Component {
           <p className="v-container__body">{Data.summary}</p>
 
           <div className="v-container__block-wide">
-            <h3 className="v-container__headline">Selected Results</h3>
+            <h2 className="v-container__headline">Selected Results</h2>
             <div className="v-results">
               {Data.selectedResults.map((result, i) => (
                 <div className="v-results__item" key={i}>
@@ -46,7 +46,7 @@ class AppComponent extends React.Component {
             showWork={false}
           />
           <Education data={Data.education} />
-        </div>
+        </main>
 
         <Footer />
       </section>

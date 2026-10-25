@@ -2,7 +2,7 @@ import React from 'react';
 
 const Projects = ({ list }) => (
   <div className="v-container__block-wide">
-    <h3 className="v-container__headline">Independent Projects</h3>
+    <h2 className="v-container__headline">Independent Projects</h2>
     {list.map((item, index) => (
       <div className="v-container__experience" key={index}>
         <div className="v-container__experience-block v-container__experience-block--lead">

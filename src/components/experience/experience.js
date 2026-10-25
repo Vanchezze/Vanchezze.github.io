@@ -74,13 +74,13 @@ class Experience extends React.Component {
       <>
         {experience.length > 0 && (
           <div className="v-container__block-wide">
-            <h3 className="v-container__headline">Work Experience</h3>
+            <h2 className="v-container__headline">Work Experience</h2>
             {experience}
           </div>
         )}
         {earlierExperience.length > 0 && (
           <div className="v-container__block-wide">
-            <h3 className="v-container__headline">Earlier Experience</h3>
+            <h2 className="v-container__headline">Earlier Experience</h2>
             {earlierExperience}
           </div>
         )}

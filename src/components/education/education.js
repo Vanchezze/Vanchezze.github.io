@@ -12,7 +12,7 @@ class Education extends React.Component {
 
     return (
       <div className="v-container__block-wide">
-        <h3 className="v-container__headline">Education</h3>
+        <h2 className="v-container__headline">Education</h2>
         {educationList}
       </div>
     );
